@@ -142,5 +142,6 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# News App local JS folder
-js/
+# News App local JS folder (ignore everything except app.js)
+js/*
+!js/app.js
